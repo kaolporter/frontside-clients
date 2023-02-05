@@ -18,8 +18,6 @@ document.body.appendChild(renderer.domElement);
 
 new TransformControls(camera, renderer.domElement);
 
-const loader = new THREE.TextureLoader();
-
 let model;
 //load prefabbed dodeca
 function loadGLTB(){
@@ -58,28 +56,9 @@ var greyMat = new THREE.MeshPhongMaterial({
 });
 
 
-
-var geometry = new THREE.DodecahedronGeometry(2, 0);
-
-geometry.normalizeNormals();
-
-
-var mesh = new THREE.Mesh(geometry, greyMat);
-
-console.log(mesh);
-
-
-console.log(mesh.geometry);
-
-//scene.add(mesh)a
-
-
-
 const light = new THREE.PointLight(0xffffff, .9, 0)
 
 light.position.set(5, 1, 50)
-
-
 
 scene.add(light)
 
