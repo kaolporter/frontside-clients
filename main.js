@@ -6,6 +6,7 @@ const scene = new THREE.Scene();
 
 const camera = new THREE.PerspectiveCamera(1000, innerWidth / innerHeight, 0.1, 1000);
 camera.position.z = 10;
+camera.position.y = 2;
 
 
 
