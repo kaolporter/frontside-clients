@@ -77,7 +77,7 @@ console.log(mesh.geometry);
 
 
 
-const light = new THREE.PointLight(0xFFFFFF, 1, 0)
+const light = new THREE.PointLight(0xe3d5da, 1, 0)
 
 light.position.set(5, 1, 50)
 
