@@ -20,8 +20,6 @@ new TransformControls(camera, renderer.domElement);
 
 const loader = new THREE.TextureLoader();
 
-const tex3 = new loader.load('3.png')
-
 let model;
 //load prefabbed dodeca
 function loadGLTB(){
