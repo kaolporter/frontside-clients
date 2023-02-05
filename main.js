@@ -27,7 +27,7 @@ let model;
 function loadGLTB(){
 
 const gltLoader = new GLTFLoader();
-gltLoader.load('clients2.gltf', function (gltf) {
+gltLoader.load('clients.gltf', function (gltf) {
 
   scene.add(gltf.scene);
   model = gltf.scene;
