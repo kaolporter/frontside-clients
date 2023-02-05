@@ -56,7 +56,7 @@ var greyMat = new THREE.MeshPhongMaterial({
 });
 
 
-const light = new THREE.PointLight(0xffffff, .9, 0)
+const light = new THREE.DirectionalLight(0xffffff, 1)
 
 light.position.set(5, 1, 50)
 
